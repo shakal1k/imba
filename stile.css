@@ -1,0 +1,26 @@
+ body {
+            display: flex;
+            flex-direction: column; /* Меняем направление на вертикальное */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; 
+        }
+
+        .round-button {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-image: url('img/2.png');
+            background-size: cover;
+            border: none;
+            cursor: pointer;
+            outline: none;
+        }
+
+        h1 {
+            margin: 20px; 
+            font-size: 24px; 
+            text-align: center;
+        }

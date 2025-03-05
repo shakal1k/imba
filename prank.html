@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>лох</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stile.css">
+</head>
+<body>
+    <h1>ОТКРОЙ ПОДАРОК</h1> 
+    <button class="round-button" onclick="playSound()"></button>
+    <audio id="sound" src="audio/by.mp3"></audio>
+    <script>
+        function playSound() {
+            var sound = document.getElementById('sound');
+            sound.currentTime = 0; 
+            sound.play(); 
+        }
+    </script>
+</body>
+</html>
